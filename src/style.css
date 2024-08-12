@@ -1,1 +1,11 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: #006400;
+}
+.carta {
+  width: 500px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 100px auto;
+}

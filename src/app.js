@@ -5,7 +5,10 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+let icons = ["♦", "♥", "♠", "♣"];
+
+function generateCard() {
+  let numbers = Math.floor(Math.random() * 10) + 1;
+  let icon = icons[Math.floor(Math.random() * icons.length)];
+  let carta = document.getElementById("carta");
+}
