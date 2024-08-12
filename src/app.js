@@ -22,6 +22,7 @@ function generateCard() {
 }
 
 window.onload = generateCard();
+setInterval(generateCard, 1000);
 
 let button = document.getElementById("boton");
 button.addEventListener("click", generateCard);
