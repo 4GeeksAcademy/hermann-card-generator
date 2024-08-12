@@ -3,9 +3,28 @@ body {
   background-color: #006400;
 }
 .carta {
-  width: 500px;
+  width: 250px;
   background-color: #fff;
   border-radius: 20px;
-  padding: 20px;
+  padding: 10px;
   margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.icon-right{
+  font-size: 50px;
+  margin-right: auto;
+}
+
+.num {
+  font-size: 90px;
+  text-align: center;
+}
+
+.icon-left{
+  font-size: 50px;
+  margin-left: auto;
+  transform: rotate(180deg);
 }
