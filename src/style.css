@@ -28,3 +28,13 @@ body {
   margin-left: auto;
   transform: rotate(180deg);
 }
+
+.boton{
+  display: block;
+  text-align: center;
+  margin: 30px auto;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+}
